@@ -78,15 +78,21 @@
 <ul>
   <li>Download markdown.lang from <a href="https://raw.githubusercontent.com/nacho/gtksourceview/master/data/language-specs/markdown.lang">here</a>, i.e. from Gnome-3 gedit repository</li>
   <li>Copy it into MATE directory:
- $ sudo cp ~/some-dir/markdown.lang  /usr/share/gtksourceview-2.0/language-specs
-//See also (An advice)[https://ubuntu-mate.community/t/adding-syntax-highlighting-to-pluma/56]</li>
+    <div class="language-bash highlighter-rouge"><pre class="highlight"><code> <span class="nv">$ </span>sudo cp ~/some-dir/markdown.lang  /usr/share/gtksourceview-2.0/language-specs
+</code></pre>
+    </div>
+    <p>//See also (An advice)[https://ubuntu-mate.community/t/adding-syntax-highlighting-to-pluma/56]</p>
+  </li>
 </ul>
 
-<p>BTW it sits here: 
- /usr/share/gtksourceview-3.0/language-specs/markdown.lang
-so it can be created as symlink:
- ln -s /usr/share/gtksourceview-3.0/language-specs/markdown.lang /usr/share/gtksourceview-2.0/language-specs/markdown.lang</p>
-
+<p>BTW it sits here:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code> /usr/share/gtksourceview-3.0/language-specs/markdown.lang
+</code></pre>
+</div>
+<p>so it can be created as symlink:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code> ln -s /usr/share/gtksourceview-3.0/language-specs/markdown.lang /usr/share/gtksourceview-2.0/language-specs/markdown.lang
+</code></pre>
+</div>
 <p>==</p>
 
 <h4 id="just-a-side-note">Just a side note:</h4>

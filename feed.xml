@@ -6,8 +6,8 @@
 </description>
     <link>https://MinasAbrahamyan.github.io/</link>
     <atom:link href="https://MinasAbrahamyan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Sep 2016 11:35:49 +0400</pubDate>
-    <lastBuildDate>Sun, 25 Sep 2016 11:35:49 +0400</lastBuildDate>
+    <pubDate>Sun, 25 Sep 2016 11:41:42 +0400</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 11:41:42 +0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -22,15 +22,21 @@
 &lt;ul&gt;
   &lt;li&gt;Download markdown.lang from &lt;a href=&quot;https://raw.githubusercontent.com/nacho/gtksourceview/master/data/language-specs/markdown.lang&quot;&gt;here&lt;/a&gt;, i.e. from Gnome-3 gedit repository&lt;/li&gt;
   &lt;li&gt;Copy it into MATE directory:
- $ sudo cp ~/some-dir/markdown.lang  /usr/share/gtksourceview-2.0/language-specs
-//See also (An advice)[https://ubuntu-mate.community/t/adding-syntax-highlighting-to-pluma/56]&lt;/li&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo cp ~/some-dir/markdown.lang  /usr/share/gtksourceview-2.0/language-specs
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;//See also (An advice)[https://ubuntu-mate.community/t/adding-syntax-highlighting-to-pluma/56]&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;BTW it sits here: 
- /usr/share/gtksourceview-3.0/language-specs/markdown.lang
-so it can be created as symlink:
- ln -s /usr/share/gtksourceview-3.0/language-specs/markdown.lang /usr/share/gtksourceview-2.0/language-specs/markdown.lang&lt;/p&gt;
-
+&lt;p&gt;BTW it sits here:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; /usr/share/gtksourceview-3.0/language-specs/markdown.lang
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;so it can be created as symlink:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ln -s /usr/share/gtksourceview-3.0/language-specs/markdown.lang /usr/share/gtksourceview-2.0/language-specs/markdown.lang
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 &lt;p&gt;==&lt;/p&gt;
 
 &lt;h4 id=&quot;just-a-side-note&quot;&gt;Just a side note:&lt;/h4&gt;

@@ -6,8 +6,8 @@
 </description>
     <link>https://MinasAbrahamyan.github.io/</link>
     <atom:link href="https://MinasAbrahamyan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Sep 2016 11:53:46 +0400</pubDate>
-    <lastBuildDate>Sun, 25 Sep 2016 11:53:46 +0400</lastBuildDate>
+    <pubDate>Sun, 25 Sep 2016 11:55:49 +0400</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 11:55:49 +0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -46,9 +46,10 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;==&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;h3 id=&quot;just-a-side-note-qbook-writing-software&quot;&gt;Just a side note: Q.book writing software?&lt;/h3&gt;
+&lt;p&gt;Just a side note:&lt;/p&gt;
+&lt;h4 id=&quot;q-book-writing-software&quot;&gt;Q. Book-writing software?&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;http://askubuntu.com/questions/312256/is-there-any-program-designed-for-writing-a-book&quot;&gt;Is there any program designed for writing a book? in Linux&lt;/a&gt;&lt;/p&gt;
 
 </description>

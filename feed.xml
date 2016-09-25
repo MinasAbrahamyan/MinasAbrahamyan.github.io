@@ -6,42 +6,36 @@
 </description>
     <link>https://MinasAbrahamyan.github.io/</link>
     <atom:link href="https://MinasAbrahamyan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Sep 2016 11:55:49 +0400</pubDate>
-    <lastBuildDate>Sun, 25 Sep 2016 11:55:49 +0400</lastBuildDate>
+    <pubDate>Sun, 25 Sep 2016 11:57:48 +0400</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 11:57:48 +0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>A new post: Markdown language</title>
-        <description>&lt;h2 id=&quot;markdown-language-cheatsheet&quot;&gt;Markdown language Cheatsheet:&lt;/h2&gt;
+        <description>&lt;h3 id=&quot;markdown-language-cheatsheet&quot;&gt;Markdown language Cheatsheet:&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet/&quot;&gt;Markdown-Cheatsheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;make-pluma-fork-of-gedit2-work-with-markdown-format&quot;&gt;Make pluma (fork of gedit2) work with Markdown format:&lt;/h3&gt;
+&lt;h4 id=&quot;make-pluma-fork-of-gedit2-work-with-markdown-format&quot;&gt;Make pluma (fork of gedit2) work with Markdown format:&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Download markdown.lang from &lt;a href=&quot;https://raw.githubusercontent.com/nacho/gtksourceview/master/data/language-specs/markdown.lang&quot;&gt;here&lt;/a&gt;, i.e. from Gnome-3 gedit repository&lt;/li&gt;
-  &lt;li&gt;Copy it into MATE directory:
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo cp ~/some-dir/markdown.lang  /usr/share/gtksourceview-2.0/language-specs
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Copy it into MATE directory:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;//See also (An advice on the same topic: copy symlink)[https://ubuntu-mate.community/t/adding-syntax-highlighting-to-pluma/56]&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;BTW it sits here:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; /usr/share/gtksourceview-3.0/language-specs/markdown.lang
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo cp ~/some-dir/markdown.lang  /usr/share/gtksourceview-2.0/language-specs
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;so it can be created as symlink:&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;//See also (An advice on the same topic: copy symlink)[https://ubuntu-mate.community/t/adding-syntax-highlighting-to-pluma/56]&lt;/p&gt;
 
+&lt;p&gt;BTW it sits here:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/usr/share/gtksourceview-3.0/language-specs/markdown.lang
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;so it can be created as symlink:&lt;/p&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ln -s /usr/share/gtksourceview-3.0/language-specs/markdown.lang /usr/share/gtksourceview-2.0/language-specs/markdown.lang
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;

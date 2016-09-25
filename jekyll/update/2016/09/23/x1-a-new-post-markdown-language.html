@@ -68,36 +68,30 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h2 id="markdown-language-cheatsheet">Markdown language Cheatsheet:</h2>
+    <h3 id="markdown-language-cheatsheet">Markdown language Cheatsheet:</h3>
 <ul>
   <li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet/">Markdown-Cheatsheet</a></li>
 </ul>
 
-<h3 id="make-pluma-fork-of-gedit2-work-with-markdown-format">Make pluma (fork of gedit2) work with Markdown format:</h3>
+<h4 id="make-pluma-fork-of-gedit2-work-with-markdown-format">Make pluma (fork of gedit2) work with Markdown format:</h4>
 
 <ul>
   <li>Download markdown.lang from <a href="https://raw.githubusercontent.com/nacho/gtksourceview/master/data/language-specs/markdown.lang">here</a>, i.e. from Gnome-3 gedit repository</li>
-  <li>Copy it into MATE directory:
-    <div class="language-bash highlighter-rouge"><pre class="highlight"><code> <span class="nv">$ </span>sudo cp ~/some-dir/markdown.lang  /usr/share/gtksourceview-2.0/language-specs
-</code></pre>
-    </div>
-  </li>
+  <li>Copy it into MATE directory:</li>
 </ul>
 
-<p>//See also (An advice on the same topic: copy symlink)[https://ubuntu-mate.community/t/adding-syntax-highlighting-to-pluma/56]</p>
-
-<blockquote>
-  <p>BTW it sits here:</p>
-</blockquote>
-
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code> /usr/share/gtksourceview-3.0/language-specs/markdown.lang
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>sudo cp ~/some-dir/markdown.lang  /usr/share/gtksourceview-2.0/language-specs
 </code></pre>
 </div>
 
-<blockquote>
-  <p>so it can be created as symlink:</p>
-</blockquote>
+<p>//See also (An advice on the same topic: copy symlink)[https://ubuntu-mate.community/t/adding-syntax-highlighting-to-pluma/56]</p>
 
+<p>BTW it sits here:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>/usr/share/gtksourceview-3.0/language-specs/markdown.lang
+</code></pre>
+</div>
+
+<p>so it can be created as symlink:</p>
 <div class="language-bash highlighter-rouge"><pre class="highlight"><code> ln -s /usr/share/gtksourceview-3.0/language-specs/markdown.lang /usr/share/gtksourceview-2.0/language-specs/markdown.lang
 </code></pre>
 </div>

@@ -6,15 +6,34 @@
 </description>
     <link>https://MinasAbrahamyan.github.io/</link>
     <atom:link href="https://MinasAbrahamyan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Sep 2016 07:33:38 +0400</pubDate>
-    <lastBuildDate>Sun, 25 Sep 2016 07:33:38 +0400</lastBuildDate>
+    <pubDate>Sun, 25 Sep 2016 11:28:21 +0400</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 11:28:21 +0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>A new post: Markdown language</title>
-        <description>&lt;p&gt;Markdown language:&lt;/p&gt;
+        <description>&lt;p&gt;##Markdown language Cheatsheet:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet/&quot;&gt;Markdown-Cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&lt;/p&gt;
+&lt;p&gt;###Make pluma (fork of gedit2) work with Markdown format:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Download markdown.lang from [https://raw.githubusercontent.com/nacho/gtksourceview/master/data/language-specs/markdown.lang], i,e, from Gnome-3 gedit&lt;/li&gt;
+  &lt;li&gt;Copy it into MATE directory:
+ $ sudo cp ~/some-dir/markdown.lang  /usr/share/gtksourceview-2.0/language-specs
+//See also [1 https://ubuntu-mate.community/t/adding-syntax-highlighting-to-pluma/56]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;BTW it sits here: 
+ /usr/share/gtksourceview-3.0/language-specs/markdown.lang
+so it can be created as symlink:
+ ln -s /usr/share/gtksourceview-3.0/language-specs/markdown.lang /usr/share/gtksourceview-2.0/language-specs/markdown.lang&lt;/p&gt;
+
+&lt;p&gt;==
+####Just a side note:
+&lt;a href=&quot;http://askubuntu.com/questions/312256/is-there-any-program-designed-for-writing-a-book&quot;&gt;Is there any program designed for writing a book? in Linux&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 23 Sep 2016 19:32:30 +0400</pubDate>

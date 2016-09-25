@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>A new post: Markdown language</title>
-  <meta name="description" content="Markdown language:">
+  <meta name="description" content="##Markdown language Cheatsheet: Markdown-Cheatsheet">
 
   
   
@@ -68,9 +68,28 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Markdown language:</p>
+    <p>##Markdown language Cheatsheet:</p>
+<ul>
+  <li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet/">Markdown-Cheatsheet</a></li>
+</ul>
 
-<p>https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</p>
+<p>###Make pluma (fork of gedit2) work with Markdown format:</p>
+
+<ul>
+  <li>Download markdown.lang from [https://raw.githubusercontent.com/nacho/gtksourceview/master/data/language-specs/markdown.lang], i,e, from Gnome-3 gedit</li>
+  <li>Copy it into MATE directory:
+ $ sudo cp ~/some-dir/markdown.lang  /usr/share/gtksourceview-2.0/language-specs
+//See also [1 https://ubuntu-mate.community/t/adding-syntax-highlighting-to-pluma/56]</li>
+</ul>
+
+<p>BTW it sits here: 
+ /usr/share/gtksourceview-3.0/language-specs/markdown.lang
+so it can be created as symlink:
+ ln -s /usr/share/gtksourceview-3.0/language-specs/markdown.lang /usr/share/gtksourceview-2.0/language-specs/markdown.lang</p>
+
+<p>==
+####Just a side note:
+<a href="http://askubuntu.com/questions/312256/is-there-any-program-designed-for-writing-a-book">Is there any program designed for writing a book? in Linux</a></p>
 
 
   </div>

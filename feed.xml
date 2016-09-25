@@ -6,24 +6,24 @@
 </description>
     <link>https://MinasAbrahamyan.github.io/</link>
     <atom:link href="https://MinasAbrahamyan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Sep 2016 11:28:21 +0400</pubDate>
-    <lastBuildDate>Sun, 25 Sep 2016 11:28:21 +0400</lastBuildDate>
+    <pubDate>Sun, 25 Sep 2016 11:35:49 +0400</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 11:35:49 +0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>A new post: Markdown language</title>
-        <description>&lt;p&gt;##Markdown language Cheatsheet:&lt;/p&gt;
+        <description>&lt;h2 id=&quot;markdown-language-cheatsheet&quot;&gt;Markdown language Cheatsheet:&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet/&quot;&gt;Markdown-Cheatsheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;###Make pluma (fork of gedit2) work with Markdown format:&lt;/p&gt;
+&lt;h3 id=&quot;make-pluma-fork-of-gedit2-work-with-markdown-format&quot;&gt;Make pluma (fork of gedit2) work with Markdown format:&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Download markdown.lang from [https://raw.githubusercontent.com/nacho/gtksourceview/master/data/language-specs/markdown.lang], i,e, from Gnome-3 gedit&lt;/li&gt;
+  &lt;li&gt;Download markdown.lang from &lt;a href=&quot;https://raw.githubusercontent.com/nacho/gtksourceview/master/data/language-specs/markdown.lang&quot;&gt;here&lt;/a&gt;, i.e. from Gnome-3 gedit repository&lt;/li&gt;
   &lt;li&gt;Copy it into MATE directory:
  $ sudo cp ~/some-dir/markdown.lang  /usr/share/gtksourceview-2.0/language-specs
-//See also [1 https://ubuntu-mate.community/t/adding-syntax-highlighting-to-pluma/56]&lt;/li&gt;
+//See also (An advice)[https://ubuntu-mate.community/t/adding-syntax-highlighting-to-pluma/56]&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;BTW it sits here: 
@@ -31,9 +31,10 @@
 so it can be created as symlink:
  ln -s /usr/share/gtksourceview-3.0/language-specs/markdown.lang /usr/share/gtksourceview-2.0/language-specs/markdown.lang&lt;/p&gt;
 
-&lt;p&gt;==
-####Just a side note:
-&lt;a href=&quot;http://askubuntu.com/questions/312256/is-there-any-program-designed-for-writing-a-book&quot;&gt;Is there any program designed for writing a book? in Linux&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;==&lt;/p&gt;
+
+&lt;h4 id=&quot;just-a-side-note&quot;&gt;Just a side note:&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://askubuntu.com/questions/312256/is-there-any-program-designed-for-writing-a-book&quot;&gt;Is there any program designed for writing a book? in Linux&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 23 Sep 2016 19:32:30 +0400</pubDate>

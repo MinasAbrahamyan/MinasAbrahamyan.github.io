@@ -3,8 +3,8 @@ My github site (on github.io)
 
 
 
-Jekyll post writing instructions:
-=================================
+Jekyll site handling & blog-post writing instructions:
+======================================================
 
 	----
 	Update the ruby to version >2.0, required by jekyll (updated to v2.3.1)
@@ -25,14 +25,14 @@ Jekyll post writing instructions:
 
 	git clone https://github.com/mnba/mnba.github.io.git
 
-	~/mn_prj $ cd mnba.github.io/
+	~/my_prjs $ cd mnba.github.io/
 
 	#--- Now on pages
 	git checkout -b pages
 	jekyll new .
 
 	pluma  _config.yml 
-	~/mn_prj/mnba.github.io $
+	~/my_prjs/mnba.github.io $
 	$ subl  _config.yml 
 
 	$manually$ remove a line _site from file .gitignore 

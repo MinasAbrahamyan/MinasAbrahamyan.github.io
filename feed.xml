@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My new site {awesome title}</title>
-    <description>Here is my awesome description for my new site. I can edit this line in _config.yml. It will appear in my: document head meta tag, (for Google search results) and in my: feed.xml == site description.
+    <title>My github site // title</title>
+    <description>Here is my  description for my new site. I can edit this line in _config.yml. It will appear in my: document head meta tag, (for Google search results) and in my: feed.xml == site description.
 </description>
-    <link>https://MinasAbrahamyan.github.io/</link>
-    <atom:link href="https://MinasAbrahamyan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Sep 2016 17:07:34 +0400</pubDate>
-    <lastBuildDate>Sun, 25 Sep 2016 17:07:34 +0400</lastBuildDate>
+    <link>https://mnba.github.io/</link>
+    <atom:link href="https://mnba.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 28 Nov 2017 09:38:41 +0400</pubDate>
+    <lastBuildDate>Tue, 28 Nov 2017 09:38:41 +0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -46,10 +46,11 @@
 &lt;h4 id=&quot;q-book-writing-software&quot;&gt;Q. Book-writing software?&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;http://askubuntu.com/questions/312256/is-there-any-program-designed-for-writing-a-book&quot;&gt;Is there any program designed for writing a book? in Linux&lt;/a&gt;&lt;/p&gt;
 
+&lt;hr /&gt;
 </description>
         <pubDate>Fri, 23 Sep 2016 19:32:30 +0400</pubDate>
-        <link>https://MinasAbrahamyan.github.io/jekyll/update/2016/09/23/x1-a-new-post-markdown-language.html</link>
-        <guid isPermaLink="true">https://MinasAbrahamyan.github.io/jekyll/update/2016/09/23/x1-a-new-post-markdown-language.html</guid>
+        <link>https://mnba.github.io/jekyll/update/2016/09/23/x1-a-new-post-markdown-language.html</link>
+        <guid isPermaLink="true">https://mnba.github.io/jekyll/update/2016/09/23/x1-a-new-post-markdown-language.html</guid>
         
         
         <category>jekyll</category>
@@ -76,8 +77,8 @@
 
 </description>
         <pubDate>Fri, 23 Sep 2016 19:32:30 +0400</pubDate>
-        <link>https://MinasAbrahamyan.github.io/jekyll/update/2016/09/23/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://MinasAbrahamyan.github.io/jekyll/update/2016/09/23/welcome-to-jekyll.html</guid>
+        <link>https://mnba.github.io/jekyll/update/2016/09/23/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://mnba.github.io/jekyll/update/2016/09/23/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -231,8 +232,8 @@ $45&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 24 Jul 2015 15:30:30 +0400</pubDate>
-        <link>https://MinasAbrahamyan.github.io/jekyll/update/2015/07/24/speech-recognition-in-general-and-for-armenian.html</link>
-        <guid isPermaLink="true">https://MinasAbrahamyan.github.io/jekyll/update/2015/07/24/speech-recognition-in-general-and-for-armenian.html</guid>
+        <link>https://mnba.github.io/jekyll/update/2015/07/24/speech-recognition-in-general-and-for-armenian.html</link>
+        <guid isPermaLink="true">https://mnba.github.io/jekyll/update/2015/07/24/speech-recognition-in-general-and-for-armenian.html</guid>
         
         
         <category>jekyll</category>

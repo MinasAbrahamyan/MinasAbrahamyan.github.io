@@ -1,5 +1,5 @@
 # mnba.github.io
-My github site (on github.io)
+My github site at <>.github.io
 
 
 
@@ -66,7 +66,7 @@ Jekyll site handling & blog-post writing instructions:
 	git push -u origin master
 
 	# === Let's see if this works === 
-	https://minasabrahamyan.github.io/
+	https://mnba.github.io/
 
 	Site is UP
 
